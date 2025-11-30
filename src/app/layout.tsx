@@ -30,26 +30,27 @@ export const metadata: Metadata = {
   },
   description: portfolioData.about,
   keywords: [
-    "Android Developer",
-    "Flutter Developer",
-    "Kotlin Developer",
-    "Jetpack Compose",
-    "Mobile App Development",
-    "AOSP Developer",
-    "Chromium Developer",
+    "Backend Developer",
+    "Python Developer",
+    "Rust Developer",
+    "Docker",
+    "Django Developer",
+    "FastAPI Developer",
+    "Flask Developer",
     "Portfolio",
     "Next.js Portfolio",
-    "Vipul Jha",
-    "lordarcadius",
-    "vipul jha xda",
-    "Primebook",
-    "Primebook India",
+    "Mael Habib Sedjro BONOU",
+    "OpenSource",
+    "Software Engineer",
     "Senior Software Engineer",
-    "SDE-2",
-    "Android Engineer",
-    "Android",
-    "Kotlin",
-    "Flutter",
+    "AI Engineer",
+    "ML Engineer",
+    "DL Engineer",
+    "Linux",
+    "MicroServices",
+    "Microsoft Azure",
+    "DevOps",
+    "DevOps Engineer",
   ],
   authors: [{ name: portfolioData.name, url: "https://www.vipuljha.com" }],
   creator: portfolioData.name,
@@ -122,7 +123,9 @@ export default function RootLayout({
         <Navbar />
         <main className="min-h-screen pt-20">{children}</main>
         <Footer />
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS || ""} />
+        <GoogleAnalytics
+          gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS || ""}
+        />
       </body>
     </html>
   );

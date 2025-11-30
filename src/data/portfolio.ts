@@ -34,8 +34,8 @@ export interface PortfolioData {
   blogUrl?: string;
   social: SocialLink[];
   skills: {
-    mobile: string[];
-    libraries: string[];
+    languages: string[];
+    frameworks: string[];
     web: string[];
     tools: string[];
   };
@@ -44,157 +44,184 @@ export interface PortfolioData {
 }
 
 export const portfolioData: PortfolioData = {
-  name: "Vipul Jha",
-  role: "Android & Flutter Developer",
+  name: "Sedjro BONOU",
+  role: "Backend and AI Engineer",
   about:
-    "I’m an Android Developer with 4+ years of experience creating high-quality mobile applications. My expertise spans Java, Kotlin, Jetpack Compose, and modern Android architecture, with additional experience in Flutter for cross-platform development. I’ve also worked extensively with AOSP and Chromium, giving me a strong foundation across both software and system-level development.",
+    "I am a passionate Software Engineer specializing in the design and development of high-performance, scalable technological solutions. Through my experience at MTN Benin and as a consultant for multinational companies, I have worked on applications used by thousands of users, complex backend architectures, advanced API integrations, and innovative AI-driven projects. Curious, results-oriented, and committed to technical excellence, I build reliable, modern, and user-centric solutions. I enjoy transforming ideas into real products while applying best practices in software engineering, DevOps, and security.",
   profileImage: "/images/profile.webp",
-  blogUrl: "https://medium.com/@lordarcadius",
+  blogUrl: "https://medium.com/@haricrim",
   social: [
     {
       platform: "GitHub",
-      url: "https://github.com/lordarcadius",
+      url: "https://github.com/Sedjro2002",
       icon: "Github",
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/lordarcadius",
+      url: "https://www.linkedin.com/in/sedjro-bonou",
       icon: "Linkedin",
     },
     {
       platform: "X",
-      url: "https://x.com/lordarcadius",
+      url: "https://x.com/MEdjro",
       icon: "Twitter", // Lucide might not have X yet, using Twitter as fallback or X if available in next step
     },
     {
-      platform: "Instagram",
-      url: "https://instagram.com/lordarcadius",
-      icon: "Instagram",
-    },
-    {
       platform: "Medium",
-      url: "https://medium.com/@lordarcadius",
+      url: "https://medium.com/@haricrim",
       icon: "BookText", // Using BookText as a generic icon for Medium if branded one is missing
     },
     {
       platform: "Email",
-      url: "mailto:hey@vipuljha.com",
+      url: "mailto:habibhbn3@gmail.com",
       icon: "Mail",
     },
   ],
   skills: {
-    mobile: [
-      "Kotlin",
-      "Java",
-      "Jetpack Compose",
-      "Flutter",
-      "Dart",
-      "Android SDK",
-      "AOSP",
-    ],
-    libraries: [
-      "Hilt",
-      "Retrofit",
-      "Room",
-      "Coroutines",
-      "Flow",
-      "Bloc",
-      "GetIt",
+    languages: ["Python", "Rust", "TypeScript", "Go"],
+    frameworks: [
+      "Django",
+      "Django REST Framework",
+      "FastAPI",
+      "Actix Web",
+      "Axum",
+      "React/Next.js",
+      "Vue.js",
     ],
     web: [
       "REST APIs",
-      "AWS Lambda",
-      "Firebase",
-      "Supabase",
       "MySQL",
       "SQLite",
-      "Cloudflare",
-      "AWS S3",
-      "JavaScript",
-      "HTML",
-      "CSS",
+      "PostgreSQL",
+      "MongoDB",
+      "Prisma",
+      "webAssembly",
+      "gRPC",
+      "GraphQL",
     ],
-    tools: ["Git", "Android Studio", "Postman", "VS Code", "IntelliJ IDEA"],
+    tools: [
+      "Git",
+      "Postman",
+      "VS Code",
+      "NeoVim",
+      "uv",
+      "cargo",
+      "Docker",
+      "Kubernetes",
+      "AI",
+    ],
   },
   experience: [
     {
-      company: "Primebook India",
-      role: "Senior Software Engineer (SDE-2)",
-      period: "May, 2023 - Present",
+      company: "Freelance",
+      role: "Software Consultant",
+      period: "April, 2025 - Present",
       description: [
-        "Built PrimeSecure MDM for PrimeOS 3.0, leveraging DevicePolicyManager.",
-        "Enhanced Prime Browser with feaures like background playback, MDM, etc.",
-        "Created SOPs and Scripts for syncing, managing and building Chromium.",
-        "Migrated App Store storage to Cloudflare R2, saving over $2000/month.",
-        "Developed internal APIs, tools, & the early Cloud PC backend with Cashfree PG.",
+        "Supporting international companies with the design and development of large‑scale software systems.",
+        "Building backend services, optimizing APIs, and contributing to system architecture.",
+        "Working with distributed teams using Agile/Scrum methodologies.",
+        "Improving CI/CD pipelines, DevOps workflows, and software quality.",
       ],
     },
     {
-      company: "Primebook India",
-      role: "Android Engineer",
-      period: "Sep, 2021 - May, 2023",
+      company: "MTN Bénin",
+      role: "Software Engineer",
+      period: "March, 2024 – Present",
       description: [
-        "Built the PikaPika MDM dashboard in Flutter Web.",
-        "Developed PrimeOS apps including Game Center and App Store.",
-        "Initiated the PrimeOS Browser project and maintained it.",
-        "Worked on APIs supporting PrimeOS MDM and system services.",
+        "Developing APIs, backend services, and modern user interfaces.",
+        "Contributing to digital products used by thousands of customers nationwide.",
+        "Designing and developing applications integrating artificial intelligence.",
+        "Writing technical documentation, feasibility analyses, and architectural proposals.",
+        "Working closely with architects, project managers, business analysts, and cross‑functional teams.",
+        "Applying Agile, DevOps, CI/CD, and security best practices.",
+      ],
+    },
+    {
+      company: "Hôtel RAMAH",
+      role: "Web Developer",
+      period: "October, 2022 – November, 2023",
+      description: [
+        "Built a complete website using Python (Flask) to increase the business’s online visibility.",
+      ],
+    },
+    {
+      company: "Debt Management Office (CAGD Bénin)",
+      role: "Network Administration Assistant",
+      period: "August, 2023 – October, 2023",
+      description: [
+        "Supported IT infrastructure monitoring, maintenance, and troubleshooting.",
+        "Managed internal network equipment and supervised user support operations.",
+      ],
+    },
+    {
+      company: "IITECH",
+      role: "Web Developer",
+      period: "August, 2022 – October, 2022",
+      description: [
+        "Supported IT infrastructure monitoring, maintenance, and troubleshooting.",
+        "Managed internal network equipment and supervised user support operations.",
+      ],
+    },
+    {
+      company: "IITECH",
+      role: "Web Developer",
+      period: "August, 2022 – October, 2022",
+      description: [
+        "Migrated large legacy PHP applications to Laravel.",
+        "Improved application architecture and optimized performance.",
       ],
     },
   ],
   projects: [
     {
-      title: "Covid-19 Status",
+      title: "Cuexi Experts",
       description:
-        "COVID-19 Status is a free and open-source Android app that provides real-time COVID-19 statistics across India and worldwide, featuring a clean, fast, and responsive user interface.",
-      techStack: ["Java", "XML", "Firebase", "Rest APIs"],
-      link: "https://project.vipuljha.com/covid",
-      github: "https://github.com/Coders-Of-XDA-OT/covid19-status-android",
-      thumbnail: "/images/projects/covid.webp",
+        "Cuexi Experts is a platform that provides expert advice and guidance on various topics related to technology and business.",
+      techStack: [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Rest APIs",
+        "Docker",
+        "Kubernetes",
+        "Langchain",
+      ],
+      link: "https://cuexi.com/",
+      thumbnail: "/images/projects/cuexi.png",
     },
     {
-      title: "ElectraBlue Kernel",
+      title: "XSD to Form",
       description:
-        "ElectraBlue is a flash-and-forget custom kernel for supported Android devices, built to deliver a stable, smooth, and battery-efficient experience with thoughtful customization options using apps like Kernel Adiutor.",
-      techStack: ["Linux", "C", "Makefile", "Bash"],
-      link: "https://xdaforums.com/t/kernel-mido-oreo-pie-electrablue-kernel-21-0-july-06-redmi-note-4.3655651",
-      github: "https://github.com/lordarcadius/electrablue_mido",
-      thumbnail: "/images/projects/eb.webp",
+        "An Open Source project that converts XML Schema Definition (XSD) files into HTML forms.",
+      techStack: ["TypeScript", "React", "Node.js", "NextJs"],
+      link: "https://xmltoform.sedjro.com/",
+      github: "https://github.com/Sedjro2002/xml-form-generator",
+      thumbnail: "/images/projects/xml_to_form.png",
     },
     {
       title: "Portfolio Website",
       description:
-        "A previous version of my personal portfolio website showcasing my projects, work experience, and resume before launching the further iterations built in more modern tech stack.",
-      techStack: ["HTML", "CSS", "Bootstrap", "JQuery"],
-      link: "https://project.vipuljha.com/website",
-      github: "https://github.com/lordarcadius/website",
-      thumbnail: "/images/projects/portfolio.webp",
+        "My personal portfolio website showcasing my projects, work experience, and resume.",
+      techStack: ["TypeScript", "React", "Node.js", "NextJs"],
+      link: "https://portfolio.sedjro.com/",
+      github: "https://github.com/Sedjro2002/my-portfolio",
+      thumbnail: "/images/projects/portfolio.png",
     },
     {
-      title: "ABS Tweaks",
+      title: "MTN Device Financing",
       description:
-        "ABS Tweaks (Arkaynine Boost Script) is a collection of shell-based performance optimizations for Android devices, designed to improve speed and battery life. It has been downloaded over 200,000 times.",
-      techStack: ["Shell", "BusyBox", "Terminal Emulator", "SuperSU"],
-      link: "https://xdaforums.com/t/tweak-mod-arm-x86-project-dark-booster-abs-tweaks-v5-0-2-3-6-0-23-01-2016.3120404",
-      github: "https://github.com/lordarcadius/ABS-Tweaks",
-      thumbnail: "/images/projects/abs.webp",
+        "A platform which allows MTN Benin millions customers to buy devices (smartphones) on credit.",
+      techStack: ["Python", "That's all I can say😁"],
+      link: "http://kpedekpede.mtn.bj/",
+      thumbnail: "/images/projects/mtn_device_financing.png",
     },
     {
-      title: "Lenovo SNAPit Camera",
+      title: "MTN Home Unlimited",
       description:
-        "Lenovo SNAPit Camera was one of the most feature-rich OEM camera apps of its time, offering a wide range of unique capabilities. I successfully ported it to run on nearly all supported Android devices back then.",
-      techStack: ["Java", "XML", "Libs", "Smali", "Apktool"],
-      link: "https://xdaforums.com/t/app-port-6-0-lenovo-snapit-camera-5-8-53-for-all-devices.3608065/",
-      github: "",
-      thumbnail: "/images/projects/snapit.webp",
-    },
-    {
-      title: "CyanogenOS Apps",
-      description:
-        "CyanogenOS 12.1 included exclusive apps such as the updated theme engine and a Truecaller-integrated dialer. I successfully ported these features to work on CyanogenMod 13 and CyanogenMod13-based ROMs.",
-      techStack: ["Java", "Libs", "Updater Script", "Apktool"],
-      link: "https://xdaforums.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/",
-      github: "",
-      thumbnail: "/images/projects/capps.webp",
+        "A platform which allows MTN Benin millions customers to buy 4G and 5G routers and monthly bundles.",
+      techStack: ["Python", "That's all I can say😁"],
+      link: "https://home.mtn.bj/",
+      thumbnail: "/images/projects/mtn_home.png",
     },
   ],
 };

@@ -48,10 +48,13 @@ export const TechStack = React.memo(function TechStack() {
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <SkillCategory title="Mobile" skills={portfolioData.skills.mobile} />
         <SkillCategory
-          title="Libraries"
-          skills={portfolioData.skills.libraries}
+          title="Languages"
+          skills={portfolioData.skills.languages}
+        />
+        <SkillCategory
+          title="Frameworks"
+          skills={portfolioData.skills.frameworks}
         />
         <SkillCategory title="Web" skills={portfolioData.skills.web} />
         <SkillCategory title="Tools" skills={portfolioData.skills.tools} />

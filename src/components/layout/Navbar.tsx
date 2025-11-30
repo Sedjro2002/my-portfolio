@@ -47,7 +47,7 @@ export function Navbar() {
 
     const observer = new IntersectionObserver(
       observerCallback,
-      observerOptions
+      observerOptions,
     );
 
     navLinks.forEach((link) => {
@@ -63,7 +63,7 @@ export function Navbar() {
 
   const handleNavClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    href: string
+    href: string,
   ) => {
     e.preventDefault();
     const targetId = href.replace("#", "");
@@ -84,7 +84,7 @@ export function Navbar() {
         "fixed top-0 w-full z-50 transition-all duration-300 border-b border-transparent",
         isScrolled
           ? "bg-slate-950/80 backdrop-blur-md border-white/5 shadow-sm"
-          : "bg-transparent"
+          : "bg-transparent",
       )}
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
@@ -93,7 +93,7 @@ export function Navbar() {
           onClick={(e) => handleNavClick(e, "#about")}
           className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
         >
-          Vipul<span className="text-white"> Jha</span>.
+          Sedjro<span className="text-white"> BONOU</span>.
         </Link>
 
         {/* Desktop Nav */}
@@ -109,7 +109,7 @@ export function Navbar() {
                   "text-sm font-medium transition-colors relative",
                   isActive
                     ? "text-primary"
-                    : "text-slate-300 hover:text-primary"
+                    : "text-slate-300 hover:text-primary",
                 )}
               >
                 {link.name}
@@ -163,7 +163,7 @@ export function Navbar() {
                     "text-lg font-medium transition-colors",
                     isActive
                       ? "text-primary"
-                      : "text-slate-300 hover:text-primary"
+                      : "text-slate-300 hover:text-primary",
                   )}
                   onClick={(e) => handleNavClick(e, link.href)}
                 >
