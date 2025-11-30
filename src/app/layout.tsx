@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.vipuljha.com"),
+  metadataBase: new URL("https://portfolio.sedjro.com"),
   title: {
     template: `%s | ${portfolioData.name}`,
     default: `${portfolioData.name} - ${portfolioData.role}`,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     "DevOps",
     "DevOps Engineer",
   ],
-  authors: [{ name: portfolioData.name, url: "https://www.vipuljha.com" }],
+  authors: [{ name: portfolioData.name, url: "https://portfolio.sedjro.com" }],
   creator: portfolioData.name,
   publisher: portfolioData.name,
   formatDetection: {
@@ -63,13 +63,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.vipuljha.com",
+    url: "https://portfolio.sedjro.com",
     title: `${portfolioData.name} - ${portfolioData.role}`,
     description: portfolioData.about,
     siteName: `${portfolioData.name} Portfolio`,
     images: [
       {
-        url: "https://www.vipuljha.com/images/profile.webp",
+        url: "https://portfolio.sedjro.com/images/profile.webp",
         width: 1200,
         height: 630,
         alt: `${portfolioData.name} - ${portfolioData.role}`,
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     title: `${portfolioData.name} - ${portfolioData.role}`,
     description: portfolioData.about,
     creator: "@lordarcadius",
-    images: ["https://www.vipuljha.com/images/profile.webp"],
+    images: ["https://portfolio.sedjro.com/images/profile.webp"],
   },
   robots: {
     index: true,
