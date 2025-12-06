@@ -207,21 +207,21 @@ export const portfolioData: PortfolioData = {
       github: "https://github.com/Sedjro2002/my-portfolio",
       thumbnail: "/images/projects/portfolio.png",
     },
-    {
-      title: "MTN Device Financing",
-      description:
-        "A platform which allows MTN Benin millions customers to buy devices (smartphones) on credit.",
-      techStack: ["Python", "That's all I can say😁"],
-      link: "http://kpedekpede.mtn.bj/",
-      thumbnail: "/images/projects/mtn_device_financing.png",
-    },
-    {
-      title: "MTN Home Unlimited",
-      description:
-        "A platform which allows MTN Benin millions customers to buy 4G and 5G routers and monthly bundles.",
-      techStack: ["Python", "That's all I can say😁"],
-      link: "https://home.mtn.bj/",
-      thumbnail: "/images/projects/mtn_home.png",
-    },
+    // {
+    //   title: "MTN Device Financing",
+    //   description:
+    //     "A platform which allows MTN Benin millions customers to buy devices (smartphones) on credit.",
+    //   techStack: ["Python", "That's all I can say😁"],
+    //   link: "http://kpedekpede.mtn.bj/",
+    //   thumbnail: "/images/projects/mtn_device_financing.png",
+    // },
+    // {
+    //   title: "MTN Home Unlimited",
+    //   description:
+    //     "A platform which allows MTN Benin millions customers to buy 4G and 5G routers and monthly bundles.",
+    //   techStack: ["Python", "That's all I can say😁"],
+    //   link: "https://home.mtn.bj/",
+    //   thumbnail: "/images/projects/mtn_home.png",
+    // },
   ],
 };
