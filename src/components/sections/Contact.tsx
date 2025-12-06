@@ -198,7 +198,7 @@ export const ContactSection = React.memo(function ContactSection() {
                 <div className="flex items-center gap-2 text-green-400 bg-green-400/10 border border-green-400/20 rounded-lg px-4 py-3">
                   <TbCircleCheck size={20} />
                   <span>
-                    Message sent successfully! I'll get back to you soon.
+                    Message sent successfully! I will get back to you soon.
                   </span>
                 </div>
               )}
